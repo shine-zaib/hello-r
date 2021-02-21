@@ -4,3 +4,4 @@ library(dslabs)
 data(murders)
 murders$total
 sapply(murders$total, mean)
+lapply(murders$population, mean)
